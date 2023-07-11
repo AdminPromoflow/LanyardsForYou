@@ -59,7 +59,7 @@
 </style>
 
 <section class="categoriesSection">
-  <h1 class="titleCategoriess">Lanyards...</h1>
+  <h1 class="titleCategoriess">Lanyards</h1>
   <div  id="containerCategories" class="containerCategories">
 
   </div>
