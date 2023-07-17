@@ -26,8 +26,8 @@
     height: 80px;
     width: 100%;
     background: rgba(69,79,177,0.9);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
   .headLogin h3{
     position: relative;
@@ -53,8 +53,8 @@
     height: calc(100% - 80px);
     width: 100%;
     background-color: #e0e0e0;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
   .inputLogin{
     position: relative;
