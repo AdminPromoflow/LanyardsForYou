@@ -114,7 +114,7 @@
       </div>
       <div class="bodyLogin">
         <div class="inputLogin">
-          <label for="">Email</label>
+          <label for="emailLogin">Email</label>
           <input type="email" id="emailLogin" name="fname">
 
           <label for="">Password</label>
