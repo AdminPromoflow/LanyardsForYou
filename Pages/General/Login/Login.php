@@ -141,7 +141,6 @@
 
 <script type="text/javascript">
 
-bgLogin.display = "flex";
 
 var openLogin = document.getElementById("openLogin1");
 openLogin.addEventListener("click",function(){
