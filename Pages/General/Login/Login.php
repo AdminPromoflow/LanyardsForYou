@@ -190,7 +190,7 @@ openRegister.addEventListener("click",function(){
   bgLogin.display = "none";
   var openLogin = document.getElementById("openLogin");
   openLogin.addEventListener("click",function(){
-    alert("Hola");
-  //bgLogin.display = "flex";
+    //alert("Hola");
+  bgLogin.display = "flex";
   });
 </script>
