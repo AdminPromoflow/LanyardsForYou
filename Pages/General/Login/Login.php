@@ -143,7 +143,7 @@
 
 bgLogin.display = "none";
 bgLogin.display = "flex";
-var openLogin = document.getElementById("openLogin");
+var openLogin = document.getElementById("openLogin2");
 openLogin.addEventListener("click",function(){
   //alert("Hola");
 });
