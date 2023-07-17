@@ -141,6 +141,13 @@
 
 <script type="text/javascript">
 
+bgLogin.display = "none";
+bgLogin.display = "flex";
+var openLogin = document.getElementById("openLogin");
+openLogin.addEventListener("click",function(){
+  //alert("Hola");
+});
+
 /*var closeLogin = document.getElementById("closeLogin");
 var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
 closeLogin.addEventListener("click",function(){
@@ -187,10 +194,5 @@ openRegister.addEventListener("click",function(){
   })
 
 
-  bgLogin.display = "none";
-  bgLogin.display = "flex";
-  var openLogin = document.getElementById("openLogin");
-  openLogin.addEventListener("click",function(){
-    //alert("Hola");
-  });
+
 </script>
