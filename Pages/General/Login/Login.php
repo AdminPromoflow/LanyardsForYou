@@ -188,9 +188,9 @@ openRegister.addEventListener("click",function(){
 
 
   bgLogin.display = "none";
+  bgLogin.display = "flex";
   var openLogin = document.getElementById("openLogin");
   openLogin.addEventListener("click",function(){
     //alert("Hola");
-  bgLogin.display = "flex";
   });
 </script>
