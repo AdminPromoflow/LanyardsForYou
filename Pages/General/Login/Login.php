@@ -76,7 +76,7 @@
     position: relative;
     height: 45px;
     width: 50%;
-    top: 40px;
+    top: 20px;
     left: 50%;
     transform: translateX( -50%);
     background: rgba(69,79,177,0.9);
