@@ -9,12 +9,10 @@
     background-color: rgba(10,10,10,.82);
     z-index: 200;
     /*display: none;*/
+    display: flex;
   }
   .containerLogin{
     position: relative;
-    /*top: 50%;*/
-    left: 50%;
-    /*transform: translate(-50%,-50%);*/
     min-height: 400px;
     min-width: 300px;
     height: 200px;
