@@ -53,6 +53,8 @@
     height: calc(100% - 80px);
     width: 100%;
     background-color: #e0e0e0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   .inputLogin{
     position: relative;
