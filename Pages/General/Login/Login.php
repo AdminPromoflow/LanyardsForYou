@@ -26,6 +26,8 @@
     height: 80px;
     width: 100%;
     background: rgba(69,79,177,0.9);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
   .headLogin h3{
     position: relative;
