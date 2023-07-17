@@ -186,4 +186,11 @@ openRegister.addEventListener("click",function(){
     //alert(emailLogin.value + "porfis2" + passwordLogin.value + ":)");
   })
 
+
+  bgLogin.display = "none";
+  var openLogin = document.getElementById("openLogin");
+  openLogin.addEventListener("click",function(){
+    alert("Hola");
+  //bgLogin.display = "flex";
+  });
 </script>
