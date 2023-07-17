@@ -153,7 +153,7 @@ var openRegister = document.getElementById("openRegister");
 var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
 var bgRegister = document.getElementsByClassName("bgRegister")[0].style;
 
-bglogin.style.displey="none";
+bglogin.displey="none";
 openRegister.addEventListener("click",function(){
   bgLogin.display = "none";
   bgRegister.display = "block";
