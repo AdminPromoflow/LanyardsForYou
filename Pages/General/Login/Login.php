@@ -96,7 +96,7 @@
     transform: translateX( -50%);
     cursor: pointer;
     color: black;
-    margin: 7px  0;
+    margin: 0px;
     font-size: 1.3em;
     text-align: center;
   }
