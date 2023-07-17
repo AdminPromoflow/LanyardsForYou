@@ -84,6 +84,7 @@
     cursor: pointer;
     color: white;
     font-size: 1.3em;
+    margin: 0px;
   }
   .bodyLogin a{
     position: relative;
