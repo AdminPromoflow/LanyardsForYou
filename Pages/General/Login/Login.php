@@ -117,7 +117,7 @@
           <label for="emailLogin">Email</label>
           <input type="email" id="emailLogin" name="fname">
 
-          <label for="">Password</label>
+          <label for="passwordLogin">Password</label>
           <input type="password" id="passwordLogin" name="fname">
 
 
