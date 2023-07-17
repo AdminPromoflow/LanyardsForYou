@@ -205,7 +205,7 @@
     </div>
   </a>
   <a href="">
-    <div id="openLogin2" class="subitemMenu">
+    <div id="openLogin" class="subitemMenu">
       <h3>Login</h3>
     </div>
   </a>
@@ -285,7 +285,7 @@
 
 
 
-   var openLogin = document.getElementById("openLogin2");
+   var openLogin = document.getElementById("openLogin");
    openLogin.addEventListener("click",function(){
    bgLogin.display = "flex";
    });
