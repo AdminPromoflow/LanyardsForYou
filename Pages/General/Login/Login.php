@@ -20,6 +20,7 @@
     width: 400px;
     border-radius: 5px;
     padding: 30px;
+    background: green;
   }
   .headLogin{
     position: relative;
