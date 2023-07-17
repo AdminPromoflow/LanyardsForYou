@@ -14,9 +14,9 @@
   }
   .containerLogin{
     position: relative;
-    min-height: 433px;
+    min-height: 432px;
     min-width: 300px;
-    height: 433px;
+    height: 432px;
     width: 400px;
     border-radius: 5px;
     padding: 30px;
