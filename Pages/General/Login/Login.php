@@ -13,8 +13,8 @@
   .containerLogin{
     position: relative;
     /*top: 50%;*/
-    /*left: 50%;*/
-    transform: translate(-50%,-50%);
+    left: 50%;
+    /*transform: translate(-50%,-50%);*/
     min-height: 400px;
     min-width: 300px;
     height: 200px;
