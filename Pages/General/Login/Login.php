@@ -142,10 +142,9 @@
 <script type="text/javascript">
 
 bgLogin.display = "none";
-bgLogin.display = "flex";
-var openLogin = document.getElementById("openLogin2");
+var openLogin = document.getElementById("openLogin1");
 openLogin.addEventListener("click",function(){
-  //alert("Hola");
+  bgLogin.display = "flex";
 });
 
 var closeLogin = document.getElementById("closeLogin");
