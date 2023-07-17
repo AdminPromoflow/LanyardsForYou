@@ -284,7 +284,7 @@
 
 
 
-
+   bgLogin.display = "none";
    var openLogin = document.getElementById("openLogin");
    openLogin.addEventListener("click",function(){
    bgLogin.display = "flex";
