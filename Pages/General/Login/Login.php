@@ -16,7 +16,7 @@
     position: relative;
     min-height: 400px;
     min-width: 300px;
-    height: 200px;
+    height: 220px;
     width: 400px;
     border-radius: 5px;
     padding: 30px;
