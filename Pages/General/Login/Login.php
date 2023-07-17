@@ -148,11 +148,11 @@ openLogin.addEventListener("click",function(){
   //alert("Hola");
 });
 
-/*var closeLogin = document.getElementById("closeLogin");
+var closeLogin = document.getElementById("closeLogin");
 var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
 closeLogin.addEventListener("click",function(){
   bgLogin.display = "none";
-});*/
+});
 
 
 
