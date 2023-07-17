@@ -9,7 +9,6 @@
     background-color: rgba(10,10,10,.82);
     z-index: 200;
     display: none;
-    display: flex;
     align-items: center;
     justify-content: center;
   }

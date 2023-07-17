@@ -260,7 +260,7 @@
   </div>
 </section>
 </div>
-  
+
 <script type="text/javascript">
 
   var openMenu = document.getElementById("openMenu");
@@ -288,7 +288,7 @@
    var openLogin = document.getElementById("openLogin2");
    var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
    openLogin.addEventListener("click",function(){
-   bgLogin.display = "block";
+   bgLogin.display = "flex";
    });
 
 </script>
