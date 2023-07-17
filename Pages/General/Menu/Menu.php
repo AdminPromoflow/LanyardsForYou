@@ -288,7 +288,7 @@
    var openLogin = document.getElementById("openLogin");
    var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
    openLogin.addEventListener("click",function(){
-  alert("Hola");     /* bgLogin.display = "block";*/
+     alert("Hola");     /* bgLogin.display = "block";*/
    });
 
 </script>
