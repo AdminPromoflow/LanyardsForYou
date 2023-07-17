@@ -8,7 +8,7 @@
     width: 100vw;
     background-color: rgba(10,10,10,.82);
     z-index: 200;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -152,6 +152,8 @@ closeLogin.addEventListener("click",function(){
 var openRegister = document.getElementById("openRegister");
 var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
 var bgRegister = document.getElementsByClassName("bgRegister")[0].style;
+
+bglogin.style.displey="none";
 openRegister.addEventListener("click",function(){
   bgLogin.display = "none";
   bgRegister.display = "block";
