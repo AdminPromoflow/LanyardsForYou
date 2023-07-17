@@ -10,6 +10,8 @@
     z-index: 200;
     /*display: none;*/
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .containerLogin{
     position: relative;
