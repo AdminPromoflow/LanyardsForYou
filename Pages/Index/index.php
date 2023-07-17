@@ -29,15 +29,15 @@
     <?php include("../../Pages/General/Menu/Menu.php"); ?>
     <?php include ("../../Pages/General/Login/Login.php") ?>
     <?php include("../../Pages/Index/Slider/Slider.php"); ?>
-    <?php include("../../Pages/Index/Categories/Categories.php"); ?>
+    <?php //include("../../Pages/Index/Categories/Categories.php"); ?>
 
-    <?php include("../../Pages/Index/Promo/Promo.php"); ?>
-    <?php include("../../Pages/Index/Popular/Popular.php"); ?>
+    <?php //include("../../Pages/Index/Promo/Promo.php"); ?>
+    <?php //include("../../Pages/Index/Popular/Popular.php"); ?>
 
-    <?php include("../../Pages/Index/Picture/Picture.php"); ?>
-    <?php include("../../Pages/Index/MakeYourOwnLanyard/MakeYourOwnLanyard.php"); ?>
-    <?php include("../../Pages/Index/ContactUs/ContactUs.php"); ?>
-    <?php include("../../Pages/General/Footer/Footer.php"); ?>
+    <?php //include("../../Pages/Index/Picture/Picture.php"); ?>
+    <?php //include("../../Pages/Index/MakeYourOwnLanyard/MakeYourOwnLanyard.php"); ?>
+    <?php //include("../../Pages/Index/ContactUs/ContactUs.php"); ?>
+    <?php //include("../../Pages/General/Footer/Footer.php"); ?>
 
 
   </body>
