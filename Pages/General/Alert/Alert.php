@@ -8,7 +8,7 @@
     width: 100vw;
     background-color: rgba(10,10,10,.82);
     z-index: 11;
-    display: block;
+    display: none;
   }
   .containerAlert{
     position: relative;
