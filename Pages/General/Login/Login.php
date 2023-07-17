@@ -89,13 +89,13 @@
     position: relative;
     display: block;
     height: 45px;
-    width: 50%;
+    width: 70%;
     top: 40px;
     left: 50%;
     transform: translateX( -50%);
     cursor: pointer;
     color: black;
-    margin: 10px  0;
+    margin: 7px  0;
     font-size: 1.3em;
     text-align: center;
   }
