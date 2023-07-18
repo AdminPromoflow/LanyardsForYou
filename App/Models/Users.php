@@ -1,16 +1,16 @@
 <?php
     class Users {
-    /*  private $idUser;
+     private $idUser;
       private $name;
       private $email;
       private $password;
-      private $conn;*/
+      private $conn;
 
-        /*function __construct($conn) {
+        function __construct($conn) {
             $this->conn = $conn;
-        }*/
+        }
 
-        /*function setEmail($email){
+        function setEmail($email){
           $this->email = $email;
         }
         function setName($name){
@@ -19,9 +19,9 @@
 
         function setPassword($password){
           $this->password = $password;
-        }*/
+        }
 
-        /*function createUser(){
+        function createUser(){
          try{
             $sql = "INSERT INTO `Users`(`name`,  `email`,  `password`)
             VALUES ('$this->name', '$this->email', '$this->password')";
@@ -31,7 +31,7 @@
           catch(PDOException $e){
               echo $query . "<br>" . $e->getMessage();
             }
-        }*/
+        }
 
 
 }
