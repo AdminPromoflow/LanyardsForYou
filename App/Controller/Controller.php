@@ -94,6 +94,9 @@ require_once('../Models/Materials.php');
         $material = new Materials($db);
         echo json_encode($material->getMaterials());
     }
+    elseif ($_POST['module']=="createUser") {
+      echo "Hola";
+    }
 
 
 

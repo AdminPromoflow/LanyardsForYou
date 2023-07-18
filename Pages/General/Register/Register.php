@@ -165,9 +165,22 @@
     register.addEventListener("click", function(){
       if (emailRegister.value.includes('@')) {
         if (emailRegister.value.includes('.')) {
-          messageAlert.innerHTML = "Your account has been created";
+        /*  messageAlert.innerHTML = "Your account has been created";
           bgAlert.display =  "flex";
-          bgRegister.display =  "none";
+          bgRegister.display =  "none";*/
+          $.ajax( "../../App/Controller/Controller.php", {
+            type: 'post',
+            async: false,
+            data: {
+              module: "createUser",
+
+            },
+            success: function(data){/*
+              var data = jQuery.parseJSON(data);
+              addMaterialsCategories(data);*/
+              alert(data);
+           }
+          }
         }
         else {
           messageAlert.innerHTML = "No haz ingresado un correo válido";
