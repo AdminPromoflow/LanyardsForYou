@@ -1,10 +1,10 @@
 <?php
     class Users {
-      private $idUser;
+    /*  private $idUser;
       private $name;
       private $email;
       private $password;
-      private $conn;
+      private $conn;*/
 
         /*function __construct($conn) {
             $this->conn = $conn;
