@@ -97,7 +97,7 @@ require_once('../App/Models/Users.php');
     }
     elseif ($_POST['module']=="createUser") {
       $db = new Database();
-      $user = new Users($db);
+      //$user = new Users($db);
       //$user->setEmail($_POST['email']);
       //$user->setName($_POST['name']);
     //  $user->setPassword($_POST['password']);
