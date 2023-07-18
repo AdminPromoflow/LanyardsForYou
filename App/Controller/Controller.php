@@ -3,7 +3,7 @@ session_start();
 require_once('../Config/database.php');
 
 require_once('../Models/Materials.php');
-//require_once('../App/Models/Users.php');
+require_once('../Models/Users.php');
 
 
     if ($_POST['module']=="setWidthSelected") {
