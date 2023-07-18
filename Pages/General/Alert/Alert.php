@@ -8,13 +8,13 @@
     width: 100vw;
     background-color: rgba(10,10,10,.82);
     z-index: 11;
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .containerAlert{
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+
     padding: 20px;
     min-width: 400px;
     width: 300px;

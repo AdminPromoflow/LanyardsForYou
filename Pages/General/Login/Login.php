@@ -8,7 +8,7 @@
     width: 100vw;
     background-color: rgba(10,10,10,.82);
     z-index: 200;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
   }
