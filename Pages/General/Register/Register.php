@@ -53,6 +53,8 @@
       height: calc(100% - 80px);
       width: 100%;
       background-color: #e0e0e0;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
     }
     .inputRegister{
       position: relative;
