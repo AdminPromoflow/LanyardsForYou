@@ -15,9 +15,6 @@
     }
     .containerRegister{
       position: relative;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
       min-height: 400px;
       min-width: 300px;
       height: 480px;
@@ -149,7 +146,7 @@
     var bgLogin = document.getElementsByClassName("bgLogin")[0].style;
     openLogin2.addEventListener("click",function(){
       bgRegister.display = "none";
-      bgLogin.display = "block";
+      bgLogin.display = "flex";
       lastPanelOpened = "login";
     });
 
@@ -165,18 +162,18 @@
       if (emailRegister.value.includes('@')) {
         if (emailRegister.value.includes('.')) {
           messageAlert.innerHTML = "Your account has been created";
-          bgAlert.display =  "block";
+          bgAlert.display =  "flex";
           bgRegister.display =  "none";
         }
         else {
           messageAlert.innerHTML = "No haz ingresado un correo válido";
-          bgAlert.display =  "block";
+          bgAlert.display =  "flex";
           bgRegister.display =  "none";
         }
       }
       else{
         messageAlert.innerHTML = "No haz ingresado un correo válido";
-        bgAlert.display =  "block";
+        bgAlert.display =  "flex";
         bgRegister.display =  "none";
       }
     }
