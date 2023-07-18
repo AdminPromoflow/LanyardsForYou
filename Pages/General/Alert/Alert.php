@@ -26,6 +26,8 @@
     height: 80px;
     width: 100%;
     background: rgba(69,79,177,0.9);
+    border-top-left-radius: 5px;
+    border-top-right-radius:  5px;
   }
   .headAlert h3{
     position: relative;
