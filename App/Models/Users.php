@@ -10,7 +10,7 @@
             $this->conn = $conn;
         }
 
-        function setEmail($email){
+        /*function setEmail($email){
           $this->email = $email;
         }
         function setName($name){
@@ -19,7 +19,7 @@
 
         function setPassword($password){
           $this->password = $password;
-        }
+        }*/
 
         /*function createUser(){
          try{
