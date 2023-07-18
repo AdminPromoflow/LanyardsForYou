@@ -172,7 +172,7 @@
             type: 'post',
             async: false,
             data: {
-              module: "register",
+              module: "createUser",
               name: nameRegister.value,
               email: emailRegister.value,
               password: passwordRegister.value
