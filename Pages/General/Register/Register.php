@@ -181,6 +181,7 @@
               alert(data);
            }
           }
+        )
         }
         else {
           messageAlert.innerHTML = "No haz ingresado un correo válido";
