@@ -88,7 +88,7 @@
       <div class="bodyAlert">
           <h5 id="messageAlert">Your account has been created</h5>
 
-          <button id="" type="button" name="button">Ok</button>
+          <button id="btnAlert" type="button" name="button">Ok</button>
 
 
       </div>
@@ -100,6 +100,12 @@
 
 <script type="text/javascript">
 
+  var btnAlert = document.getElementById('btnAlert');
+  btnAlert.addEventListener("click" , function(){
+    alert("Hola");
+  })
 
+//bgAlert.display =  "flex";
+//bgLogin.display =  "none";
   //bgRegister
 </script>
