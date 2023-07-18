@@ -98,13 +98,14 @@ require_once('../App/Models/Users.php');
     elseif ($_POST['module']=="createUser") {
       $db = new Database();
       $user = new Users($db);
-      $user->setEmail($_POST['email']);
-      $user->setName($_POST['name']);
-      $user->setPassword($_POST['password']);
+      //$user->setEmail($_POST['email']);
+      //$user->setName($_POST['name']);
+    //  $user->setPassword($_POST['password']);
 
-     $result = json_encode($user->getUsers());
+     //$result = json_encode($user->getUsers());
 
-      echo $result;
+    //  echo $result;
+    echo "Hola";
     }
 
 
