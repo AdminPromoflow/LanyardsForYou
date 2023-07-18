@@ -27,9 +27,11 @@
             VALUES ('$this->name', '$this->email', '$this->password')";
             $this->conn->conn()->exec($sql);
             $this->conn->close();
+            return 1;
               }
           catch(PDOException $e){
               echo $query . "<br>" . $e->getMessage();
+              return 0;
             }
         }
 
