@@ -21,8 +21,8 @@
           $this->name = $name;
         }
 
-        function setNIT($NIT){
-          $this->NIT = $NIT;
+        function setPassword($password){
+          $this->password = $password;
         }
 
         function setCompany($company){
@@ -43,8 +43,8 @@
 
         function createUser(){
          try{
-            $sql = "INSERT INTO `Users`(`name`, `NIT`, `email`,  `phoneNumber`, `TimeAppoiment`, `company`, `positionCompany`)
-            VALUES ('$this->name', '$this->NIT','$this->email', '$this->phone', '$this->date', '$this->company', '$this->positionCompany')";
+            $sql = "INSERT INTO `Users`(`name`,  `email`,  `password`,)
+            VALUES ('$this->name', '$this->email', '$this->password')";
             $this->conn->conn()->exec($sql);
             $this->conn->close();
               }

@@ -3,6 +3,7 @@ session_start();
 require_once('../Config/database.php');
 
 require_once('../Models/Materials.php');
+require_once('../App/Models/Users.php');
 
 
     if ($_POST['module']=="setWidthSelected") {
@@ -95,7 +96,15 @@ require_once('../Models/Materials.php');
         echo json_encode($material->getMaterials());
     }
     elseif ($_POST['module']=="createUser") {
-      echo $_POST['name'].$_POST['email'].$_POST['password'];
+      $db = new Database();
+      $user = new Users($db);
+      $user->setEmail($_POST['email']);
+      $user->setName($_POST['name']);
+      $user->setPassword($_POST['password']);
+
+     $result = json_encode($user->getUsers());
+
+      echo $result;
     }
 
 
