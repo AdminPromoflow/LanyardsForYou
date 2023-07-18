@@ -23,7 +23,7 @@
 
         function createUser(){
          try{
-            $sql = "INSERT INTO `Users`(`name`,  `email`,  `password`)
+            $sql = "INSERT INTO `Users`(`nameUser`,  `emailUser`,  `passwordUser`)
             VALUES ('$this->name', '$this->email', '$this->password')";
             $this->conn->conn()->exec($sql);
             $this->conn->close();
