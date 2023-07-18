@@ -104,8 +104,8 @@
   var lastPanelOpened = "";
   btnAlert.addEventListener("click" , function(){
     if (lastPanelOpened == "login") {
-    bgAlert.display =  "flex";
-    bgLogin.display =  "none";
+    bgAlert.display =  "none";
+    bgLogin.display =  "flex";
      alert("Hola");
 
     }
