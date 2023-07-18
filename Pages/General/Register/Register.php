@@ -173,9 +173,9 @@
             async: false,
             data: {
               module: "createUser",
-              name: nameUser.value,
-              email: emailUser.value,
-              password: passwordUser.value
+              name: nameRegister.value,
+              email: emailRegister.value,
+              password: passwordRegister.value
 
 
             },
