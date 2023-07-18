@@ -96,7 +96,7 @@ require_once('../App/Models/Users.php');
         echo json_encode($material->getMaterials());
     }
     elseif ($_POST['module']=="createUser") {
-      $db = new Database();
+      //$db = new Database();
       //$user = new Users($db);
       //$user->setEmail($_POST['email']);
       //$user->setName($_POST['name']);
