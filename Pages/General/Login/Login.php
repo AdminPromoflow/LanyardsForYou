@@ -167,7 +167,8 @@ var bgRegister = document.getElementsByClassName("bgRegister")[0].style;
 
 openRegister.addEventListener("click",function(){
   bgLogin.display = "none";
-  bgRegister.display = "block";
+  bgRegister.display = "flex";
+  lastPanelOpened = "register";
 });
 
   var login  =  document.getElementById("login");
