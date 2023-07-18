@@ -54,6 +54,8 @@
     padding: 30px;
     width: 100%;
     background-color: #e0e0e0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:  5px;
   }
   .bodyAlert h5{
     font-size: 1.4em;
