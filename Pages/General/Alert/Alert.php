@@ -106,7 +106,10 @@
     if (lastPanelOpened == "login") {
     bgAlert.display =  "none";
     bgLogin.display =  "flex";
-
+    }
+    else if (lastPanelOpened == "register") {
+      bgAlert.display = "none";
+      bgRegister.display = "flex";
     }
   })
 
