@@ -21,7 +21,7 @@
           $this->password = $password;
         }
 
-        function createUser(){/*
+        function createUser(){
          try{
             $sql = "INSERT INTO `Users`(`name`,  `email`,  `password`)
             VALUES ('$this->name', '$this->email', '$this->password')";
@@ -31,7 +31,7 @@
           catch(PDOException $e){
               echo $query . "<br>" . $e->getMessage();
             }
-        }*/
+        }
 
 
 }
