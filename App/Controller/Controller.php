@@ -96,16 +96,15 @@ require_once('../Models/Users.php');
         echo json_encode($material->getMaterials());
     }
     elseif ($_POST['module']=="createUser") {
-      //$db = new Database();
-      //$user = new Users($db);
-      //$user->setEmail($_POST['email']);
-      //$user->setName($_POST['name']);
-    //  $user->setPassword($_POST['password']);
+      $db = new Database();
+      $user = new Users($db);
+      $user->setEmail($_POST['email']);
+      $user->setName($_POST['name']);
+      $user->setPassword($_POST['password']);
 
-     //$result = json_encode($user->getUsers());
+     $result = json_encode($user->getUsers());
 
-    //  echo $result;
-    echo "Hola";
+      echo $result;
     }
 
 
