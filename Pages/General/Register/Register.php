@@ -147,6 +147,7 @@
     openLogin2.addEventListener("click",function(){
       bgRegister.display = "none";
       bgLogin.display = "block";
+      lastPanelOpened = "login";
     });
 
     var register = document.getElementById("register");

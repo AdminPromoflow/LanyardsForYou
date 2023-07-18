@@ -101,11 +101,15 @@
 <script type="text/javascript">
 
   var btnAlert = document.getElementById('btnAlert');
+  var lastPanelOpened = "";
   btnAlert.addEventListener("click" , function(){
-    alert("Hola");
+    if (lastPanelOpened == "login") {
+    bgAlert.display =  "flex";
+    bgLogin.display =  "none";
+     alert("Hola");
+
+    }
   })
 
-//bgAlert.display =  "flex";
-//bgLogin.display =  "none";
   //bgRegister
 </script>

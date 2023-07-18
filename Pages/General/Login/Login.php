@@ -149,6 +149,7 @@
 var openLogin = document.getElementById("openLogin1");
 openLogin.addEventListener("click",function(){
   bgLogin.display = "flex";
+  lastPanelOpened = "login";
 });
 
 var closeLogin = document.getElementById("closeLogin");
