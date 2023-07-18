@@ -6,9 +6,9 @@
       private $password;
       private $conn;
 
-        function __construct($conn) {
+        /*function __construct($conn) {
             $this->conn = $conn;
-        }
+        }*/
 
         /*function setEmail($email){
           $this->email = $email;
