@@ -102,7 +102,7 @@ require_once('../Models/Users.php');
       $user->setName($_POST['name']);
       $user->setPassword($_POST['password']);
 
-     //$result = json_encode($user->getUsers());
+     $result = json_encode($user->getUsers());
 
       echo $result;
     }
