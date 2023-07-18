@@ -106,7 +106,6 @@
     if (lastPanelOpened == "login") {
     bgAlert.display =  "none";
     bgLogin.display =  "flex";
-     alert("Hola");
 
     }
   })
