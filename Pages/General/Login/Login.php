@@ -179,18 +179,18 @@ openRegister.addEventListener("click",function(){
     if (emailLogin.value.includes('@')) {
       if (emailLogin.value.includes('.')) {
         messageAlert.innerHTML = "Haz ingresado un correo válido";
-        bgAlert.display =  "block";
+        bgAlert.display =  "flex";
         bgLogin.display =  "none";
       }
       else {
         messageAlert.innerHTML = "No haz ingresado un correo válido";
-        bgAlert.display =  "block";
+        bgAlert.display =  "flex";
         bgLogin.display =  "none";
       }
     }
     else{
       messageAlert.innerHTML = "No haz ingresado un correo válido";
-      bgAlert.display =  "block";
+      bgAlert.display =  "flex";
       bgLogin.display =  "none";
     }
     //alert(emailLogin.value + "porfis2" + passwordLogin.value + ":)");
