@@ -4,6 +4,7 @@ require_once('../Config/database.php');
 
 require_once('../Models/Materials.php');
 require_once('../Models/Users.php');
+require('../Email/Mail.php');
 
 
     if ($_POST['module']=="setWidthSelected") {
@@ -101,8 +102,8 @@ require_once('../Models/Users.php');
       $user->setEmail($_POST['email']);
       $answer = ($user->verifyExistUser()["COUNT(*)"]);
 
-      if (0) {
-        $db = new Database();
+      if ($answer == 0) {
+        /*$db = new Database();
         $user = new Users($db);
         $user->setEmail($_POST['email']);
         $user->setName($_POST['name']);
@@ -110,7 +111,13 @@ require_once('../Models/Users.php');
 
        $result = json_encode($user->createUser());
 
-        echo $result;
+        echo $result;*/
+        $email = new Email();
+        $email->  SuccessfulRegistration();
+        echo $email;
+        //$json = file_get_contents('../../Json/Customer.json');
+        //echo $json;
+
       }
       else {
        echo "-1";

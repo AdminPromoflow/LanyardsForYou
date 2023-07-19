@@ -179,7 +179,7 @@
 
 
             },
-            success: function(data){
+            success: function(data){/*
               if (data == 1) {
                 messageAlert.innerHTML = "Your user has been registered successfully";
                 bgAlert.display =  "flex";
@@ -191,7 +191,9 @@
                  bgAlert.display =  "flex";
                  bgRegister.display =  "none";
               }
-           }
+           */
+           alert(data);
+         }
           }
         )
         }
