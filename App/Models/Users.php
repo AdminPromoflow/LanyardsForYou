@@ -39,7 +39,7 @@
           try{
            $sql = $this->conn->conn()->query("SELECT COUNT(*) FROM `Users` WHERE `emailUser`  = '$this->email'  ");
            $data = $sql->fetch(PDO::FETCH_ASSOC);
-             $this->con->close();
+             $this->conn->close();
              return $data;
                }
            catch(PDOException $e){
