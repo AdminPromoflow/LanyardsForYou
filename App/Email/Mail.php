@@ -1,18 +1,18 @@
 <?php
 class Mail {
 
-  private $recipients;
-  function setRecipinets($recipients){
+  //private $recipients;
+  /*function setRecipinets($recipients){
     $this->recipients = $recipients;
-  }
+  }*/
   function successfulRegistration(){
     //  $to = $_POST["email"];
     // Correo electrónico de destino y asunto
     $recipients = array(
-    'laurazoro@gmail.com',
+    'adrrty93@gmail.com',
     'lonsus30@gmail.com',
     'srdaniela2711@gmail.com'
-  );
+    );
     $to = implode(',', $recipients);
     $subject = "Correo con estilo";
 
@@ -88,6 +88,7 @@ class Mail {
     } else {
 
         echo 'Error al enviar el correo.2';
+    }
     }
   }
 }

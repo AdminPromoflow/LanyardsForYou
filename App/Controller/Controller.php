@@ -115,7 +115,7 @@ require('../Email/Mail.php');
       // $_POST['email']
      //);
      //$email->setRecipinets($recipients);
-       $var = $email->  successfulRegistration();
+      $email->  successfulRegistration();
 
         echo $result;
 
