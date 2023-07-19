@@ -188,7 +188,7 @@
                 bgRegister.display =  "none";
 
               }*/
-              alert("data");
+              alert(data);
            }
           }
         )
