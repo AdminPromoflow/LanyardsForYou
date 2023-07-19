@@ -103,7 +103,7 @@ require('../Email/Mail.php');
       $answer = ($user->verifyExistUser()["COUNT(*)"]);
 
       if ($answer == 0) {
-        /*$db = new Database();
+        $db = new Database();
         $user = new Users($db);
         $user->setEmail($_POST['email']);
         $user->setName($_POST['name']);
@@ -111,10 +111,13 @@ require('../Email/Mail.php');
 
        $result = json_encode($user->createUser());
 
-        echo $result;*/
+        echo $result;
         $email = new Mail();
+        $recipients = array(
+        $_POST['email']
+      );
+      $email->setRecipinets($recipients);
         $var = $email->  successfulRegistration();
-        echo $var;
         //$json = file_get_contents('../../Json/Customer.json');
         //echo $json;
 
