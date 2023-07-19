@@ -114,7 +114,7 @@ require_once('../Models/Users.php');
         echo $result;
       */}
       else {
-       echo -1;
+       echo "-1";
       }
     }
 
