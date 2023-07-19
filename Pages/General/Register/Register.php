@@ -179,27 +179,24 @@
 
 
             },
-            success: function(data){/*
-              var data = jQuery.parseJSON(data);
-              addMaterialsCategories(data);*/
+            success: function(data){
               if (data == 1) {
-                messageAlert.innerHTML = "Tu usuario ha sido registrado exitoxamente";
+                messageAlert.innerHTML = "Your user has been registered successfully";
                 bgAlert.display =  "flex";
                 bgRegister.display =  "none";
 
               }
                else if (data == -1) {
-                 messageAlert.innerHTML = "Este usuario ya existe";
+                 messageAlert.innerHTML = "This user already exists";
                  bgAlert.display =  "flex";
                  bgRegister.display =  "none";
               }
-              alert(data);
            }
           }
         )
         }
         else {
-          messageAlert.innerHTML = "No haz ingresado un correo válido";
+          messageAlert.innerHTML = "You haven't entered a valid email";
           bgAlert.display =  "flex";
           bgRegister.display =  "none";
         }
