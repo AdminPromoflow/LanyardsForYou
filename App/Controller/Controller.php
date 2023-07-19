@@ -110,16 +110,14 @@ require('../Email/Mail.php');
         $user->setPassword($_POST['password']);
 
        $result = json_encode($user->createUser());
+       $email = new Mail();
+       $recipients = array(
+       $_POST['email']
+     );
+     $email->setRecipinets($recipients);
+       $var = $email->  successfulRegistration();
 
         echo $result;
-        $email = new Mail();
-        $recipients = array(
-        $_POST['email']
-      );
-      $email->setRecipinets($recipients);
-        $var = $email->  successfulRegistration();
-        //$json = file_get_contents('../../Json/Customer.json');
-        //echo $json;
 
       }
       else {
