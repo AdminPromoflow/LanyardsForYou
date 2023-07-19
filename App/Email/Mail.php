@@ -17,7 +17,7 @@ class Mail {
     $subject = "Correo con estilo";
 
     // Dirección de correo electrónico del remitente
-    $from = "admin@alejandrarozo.com";
+    $from = "lonsus30@gmail.com";
 
     // Cabeceras del correo electrónico
     $headers = "From: $from\r\n";
