@@ -37,7 +37,7 @@
 
         function verifyExistUser(){
           try{
-           $sql = $this->con->conn()->query("SELECT COUNT(*) FROM `Users` WHERE `emailUser`  = '$this->email'  ");
+           //$sql = $this->con->conn()->query("SELECT COUNT(*) FROM `Users` WHERE `emailUser`  = '$this->email'  ");
            $data = $sql->fetch(PDO::FETCH_ASSOC);
              $this->con->close();
              return $data;
