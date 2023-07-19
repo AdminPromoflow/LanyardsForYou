@@ -99,7 +99,7 @@ require_once('../Models/Users.php');
       $db = new Database();
       $user = new Users($db);
       $user->setEmail($_POST['email']);
-      echo $user->verifyExistUser()["COUNT(*)"]);
+      //echo $user->verifyExistUser()["COUNT(*)"]);
       //       $countUsers = ($user->verifyRepeatUser()["COUNT(*)"]);
 
       if (0) {/*
