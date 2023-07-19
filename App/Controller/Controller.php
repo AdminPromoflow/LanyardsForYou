@@ -112,7 +112,7 @@ require('../Email/Mail.php');
        $result = json_encode($user->createUser());
 
         echo $result;*/
-        $email = new Email();
+        $email = new Mail();
         $email->  SuccessfulRegistration();
         echo $email;
         //$json = file_get_contents('../../Json/Customer.json');
