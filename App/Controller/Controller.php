@@ -113,8 +113,8 @@ require('../Email/Mail.php');
 
         echo $result;*/
         $email = new Mail();
-        $email->  SuccessfulRegistration();
-        echo $email;
+        $var = $email->  successfulRegistration();
+        echo $var;
         //$json = file_get_contents('../../Json/Customer.json');
         //echo $json;
 

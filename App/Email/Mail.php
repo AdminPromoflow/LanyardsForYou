@@ -1,6 +1,6 @@
 <?php
 class Mail {
-  function SuccessfulRegistration(){
+  function successfulRegistration(){
     echo "Hola";
   }
 }
