@@ -35,7 +35,7 @@
             }
         }
 
-        function verifyExistUser(){/*
+        function verifyExistUser(){
           try{
            $sql = $this->con->conn()->query("SELECT COUNT(*) FROM `Users` WHERE `emailUser`  = '$this->email'  ");
            $data = $sql->fetch(PDO::FETCH_ASSOC);
@@ -47,7 +47,7 @@
              }
 
 
-      */  }
+        }
 
 }
 ?>
