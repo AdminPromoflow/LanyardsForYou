@@ -99,9 +99,9 @@ require_once('../Models/Users.php');
       $db = new Database();
       $user = new Users($db);
       $user->setEmail($_POST['email']);
-      echo $user->verifyExistUser;
-      $user->verifyExistUser();
-      if (0) {
+      echo $user->verifyExistUser();
+      //$user->verifyExistUser();
+      /*if (0) {
         $db = new Database();
         $user = new Users($db);
         $user->setEmail($_POST['email']);
@@ -111,7 +111,7 @@ require_once('../Models/Users.php');
        $result = json_encode($user->createUser());
 
         echo $result;
-      }
+      }*/
     }
 
 
