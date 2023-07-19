@@ -111,10 +111,10 @@ require('../Email/Mail.php');
 
        $result = json_encode($user->createUser());
        $email = new Mail();
-       $recipients = array(
-       $_POST['email']
-     );
-     $email->setRecipinets($recipients);
+       //$recipients = array(
+      // $_POST['email']
+     //);
+     //$email->setRecipinets($recipients);
        $var = $email->  successfulRegistration();
 
         echo $result;

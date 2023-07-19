@@ -8,12 +8,12 @@ class Mail {
   function successfulRegistration(){
     //  $to = $_POST["email"];
     // Correo electrónico de destino y asunto
-    /*$recipients = array(
-    'adrrty93@gmail.com',
+    $recipients = array(
+    'laurazoro@gmail.com',
     'lonsus30@gmail.com',
     'srdaniela2711@gmail.com'
-  );*/
-    $to = implode(',', $this->recipients);
+  );
+    $to = implode(',', $recipients);
     $subject = "Correo con estilo";
 
     // Dirección de correo electrónico del remitente
