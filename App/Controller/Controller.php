@@ -99,12 +99,19 @@ require_once('../Models/Users.php');
       $db = new Database();
       $user = new Users($db);
       $user->setEmail($_POST['email']);
-      $user->setName($_POST['name']);
-      $user->setPassword($_POST['password']);
+      echo $user->verifyExistUser;
+      $user->verifyExistUser();
+      if (0) {
+        $db = new Database();
+        $user = new Users($db);
+        $user->setEmail($_POST['email']);
+        $user->setName($_POST['name']);
+        $user->setPassword($_POST['password']);
 
-     $result = json_encode($user->createUser());
+       $result = json_encode($user->createUser());
 
-      echo $result;
+        echo $result;
+      }
     }
 
 

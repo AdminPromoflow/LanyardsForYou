@@ -182,12 +182,13 @@
             success: function(data){/*
               var data = jQuery.parseJSON(data);
               addMaterialsCategories(data);*/
-              if (data == 1) {
+              /*if (data == 1) {
                 messageAlert.innerHTML = "Tu usuario ha sido registrado exitoxamente";
                 bgAlert.display =  "flex";
                 bgRegister.display =  "none";
 
-              }
+              }*/
+              alert("data");
            }
           }
         )

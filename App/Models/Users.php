@@ -35,6 +35,19 @@
             }
         }
 
+        function verifyExistUser(){
+          try{
+           $sql = $this->con->conn()->query("SELECT COUNT(*) FROM `User` WHERE `emailUser`  = '$this->email'  ");
+           $data = $sql->fetch(PDO::FETCH_ASSOC);
+             $this->con->close();
+             return $data;
+               }
+           catch(PDOException $e){
+               echo $query . "<br>" . $e->getMessage();
+             }
+
+
+        }
 
 }
 ?>
